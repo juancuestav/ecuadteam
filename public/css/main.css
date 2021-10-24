@@ -1,0 +1,23 @@
+.banner {
+  height: 500px;
+  width: 100%;
+  padding: 140px 0px 0px 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: radial-gradient(
+      circle at center,
+      rgba(0, 8, 71, 0.5) 96%,
+      rgba(33, 48, 183, 0) 100%
+    ),
+    url(http://192.168.1.19/ecuadteam/public/images/banner.jpg) !important;
+}
+
+.header-portfolio {
+  padding-top: 150px;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+  background-image: linear-gradient(134deg,#000133 40%,#000847 100%)!important;
+}

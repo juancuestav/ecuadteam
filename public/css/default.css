@@ -1,0 +1,90 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Exo", sans-serif;
+}
+
+/*---- PARTICLES ----*/
+/* #particles-js {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+} */
+
+.card {
+  background-color: #ffffff;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0px 10px 80px -10px rgba(44, 54, 92, 0.2);
+  transition: box-shadow 300ms ease 0ms;
+  padding-top: 60px;
+  padding-right: 40px !important;
+  padding-bottom: 40px;
+  padding-left: 40px !important;
+  border: none;
+}
+
+.button {
+  padding: 16px 32px;
+  border-radius: 50px;
+  background-color: #4089f4;
+  color: #ffffff;
+  border: none;
+  font-weight: bold;
+  letter-spacing: 0.15rem;
+  text-decoration: none;
+}
+
+.button:hover {
+  color: #fff;
+}
+
+.button-card {background-image: linear-gradient(to right, #2a7fff 0%, #8e2de2  51%, #2a7fff  100%)}
+.button-card {
+  padding: 10px 14px;
+  transition: 0.5s;
+  border-radius: 50px;
+  color: #ffffff;
+  border: none;
+  background-size: 200% auto;
+  text-decoration: none;
+  text-align: center;
+}
+
+.button-card:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+ }
+
+
+.card h4 {
+  color: #333;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.card p {
+  color: #666;
+  text-align: center;
+  font-size: 14px;
+}
+
+.form-title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.4em; 
+}
+
+.form-subtitle {
+  color: #ff885a;
+  font-size: 13px !important;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  line-height: 1.8em;
+}
