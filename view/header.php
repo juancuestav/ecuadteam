@@ -35,9 +35,9 @@
                             <li><a class="dropdown-item" href="<?php echo constant('URL') . 'pokeapi'?>">API Rest</a></li>
                             <li><hr class="dropdown-divider"></li>
                             <li><a class="dropdown-item" href="<?php echo constant('URL'); ?>registerPokemon">Aplicación web</a></li>
-                            <li><hr class="dropdown-divider"></li>
+                            <!-- <li><hr class="dropdown-divider"></li>
                             <li><a class="dropdown-item" href="<?php echo constant('URL'); ?>registerPokemon">Registrar pokemon</a></li>
-                            <li><a class="dropdown-item" href="<?php echo constant('URL'); ?>consultaPokemon">Consultar pokemon</a></li>
+                            <li><a class="dropdown-item" href="<?php echo constant('URL'); ?>consultaPokemon">Consultar pokemon</a></li> -->
                         </ul>
                     </li>
                     <a class="nav-link" href="<?php echo constant('URL'); ?>contacto">Contacto</a>
