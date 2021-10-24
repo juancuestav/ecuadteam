@@ -1,5 +1,5 @@
   <?php
-    define('URL', 'http://192.168.1.19/ecuadteam/');
+    define('URL', 'https://ecuadteam.herokuapp.com/');
 
     define('HOST', 'localhost');
     define('DB', 'pokeapi');

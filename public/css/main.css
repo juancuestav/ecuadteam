@@ -10,7 +10,7 @@
       rgba(0, 8, 71, 0.5) 96%,
       rgba(33, 48, 183, 0) 100%
     ),
-    url(http://192.168.1.19/ecuadteam/public/images/banner.jpg) !important;
+    url(https://ecuadteam.herokuapp.com/public/images/banner.jpg) !important;
 }
 
 .header-portfolio {

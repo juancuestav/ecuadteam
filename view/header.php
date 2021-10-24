@@ -32,12 +32,9 @@
                             PokeApi
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="<?php echo constant('URL') . 'pokeapi'?>">API Rest</a></li>
+                            <li><a class="dropdown-item" href="https://pokeapi.000webhostapp.com?>" target="_blank">API Rest</a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="<?php echo constant('URL'); ?>registerPokemon">Aplicación web</a></li>
-                            <!-- <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="<?php echo constant('URL'); ?>registerPokemon">Registrar pokemon</a></li>
-                            <li><a class="dropdown-item" href="<?php echo constant('URL'); ?>consultaPokemon">Consultar pokemon</a></li> -->
+                            <li><a class="dropdown-item" href="https://pokeapi-client.herokuapp.com/main" target="_blank">PokeAPI PHP Client</a></li>
                         </ul>
                     </li>
                     <a class="nav-link" href="<?php echo constant('URL'); ?>contacto">Contacto</a>
