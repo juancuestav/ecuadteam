@@ -1,17 +1,18 @@
 <?php
-  class Controller {
-    function __construct(){
-      $this->view = new View();
-    }
+	class Controller {
 
-    function loadModel($model) {
-      $url = 'model/' . $model . 'model.php';
-      if (file_exists($url)) {
-        require $url;
+		function __construct() {
+			$this->view = new View();
+		}
 
-        $modelName = $model . 'Model';
-        $this->model = new $modelName();
-      }
-    }
-  }
+		function loadModel($model) {
+			$url = 'model/' . $model . 'model.php';
+			if (file_exists($url)) {
+				require $url;
+
+				$modelName = $model . 'Model';
+				$this->model = new $modelName();
+			}
+		}
+	}
 ?>

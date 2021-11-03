@@ -12,7 +12,7 @@
   <?php require 'view/header.php' ?>
 
   <div class="row my-5 mx-2 animTopToBottom">
-    <form action="<?php echo constant('URL') . 'contacto/sendEmail' ?>" method="POST">
+    <form id="contactForm" action="<?php echo constant('URL') . 'contacto/sendEmail' ?>" method="POST">
       <div class="container card">
         <div class="row">
           <div class="col-md-4 mt-4">
@@ -36,7 +36,7 @@
                 <textarea rows="3" class="form-control" name="message" id="message" placeholder="Obligatorio" required></textarea>
               </div>
               <div class="d-grid mt-4 d-md-flex justify-content-md-end">
-                <button type="submit" class="button-card">Enviar</button>
+                <button id="btnSendEmail" type="submit" class="button-card">Enviar</button>
               </div>
             </div>
           </div>

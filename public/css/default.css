@@ -8,14 +8,6 @@ body {
   font-family: "Exo", sans-serif;
 }
 
-/*---- PARTICLES ----*/
-/* #particles-js {
-  height: 100vh;
-  width: 100%;
-  position: fixed;
-  z-index: -1;
-} */
-
 .card {
   background-color: #ffffff;
   border-radius: 10px 10px 10px 10px;
@@ -43,7 +35,14 @@ body {
   color: #fff;
 }
 
-.button-card {background-image: linear-gradient(to right, #2a7fff 0%, #8e2de2  51%, #2a7fff  100%)}
+.button-card {
+  background-image: linear-gradient(
+    to right,
+    #2a7fff 0%,
+    #8e2de2 51%,
+    #2a7fff 100%
+  );
+}
 .button-card {
   padding: 10px 14px;
   transition: 0.5s;
@@ -56,10 +55,9 @@ body {
 }
 
 .button-card:hover {
-   background-position: right center; /* change the direction of the change here */
-   color: #fff;
- }
-
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+}
 
 .card h4 {
   color: #333;
@@ -77,7 +75,7 @@ body {
 .form-title {
   font-weight: 600;
   font-size: 40px;
-  line-height: 1.4em; 
+  line-height: 1.4em;
 }
 
 .form-subtitle {

@@ -1,16 +1,12 @@
 <?php
-  class Contacto extends Controller{
-    function __construct(){
-      parent::__construct();
-      // $this->view->mensaje = "Hola, mi nombre es Juan Bryan Cuesta Vera. Soy Ingeniero de Sistemas";
-    }
+	class Contacto extends Controller {
 
-    function render() {
-      $this->view->render('contacto/index');
-    }
+		function __construct() {
+			parent::__construct();
+		}
 
-    function sendEmail() {
-      echo "correo enviado!";
-    }
-  }
+		function render() {
+			$this->view->render('contacto/index');
+		}
+	}
 ?>
