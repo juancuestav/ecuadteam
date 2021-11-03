@@ -12,7 +12,7 @@
   <?php require 'view/header.php' ?>
 
   <div class="row my-5 mx-2 animTopToBottom">
-    <form id="contactForm" action="<?php echo constant('URL') . 'contacto/sendEmail' ?>" method="POST">
+    <form id="contactForm">
       <div class="container card">
         <div class="row">
           <div class="col-md-4 mt-4">

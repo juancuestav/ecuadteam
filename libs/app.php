@@ -22,7 +22,7 @@
 					if ($nparam > 2) {
 						$param = [];
 						for($i = 2; $i < $nparam; $i++) {
-							array_push($param, $url[$i]);
+						array_push($param, $url[$i]);
 						}
 						echo $param;
 						$controller->{$url[1]}($param);

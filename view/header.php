@@ -42,10 +42,6 @@
             </div>
         </div>
     </nav>
-
-    <!-- Particles.js -->
-    <script src="<?php echo constant('URL'); ?>public/js/particles.min.js"></script>
-    <!-- <script src="<?php echo constant('URL'); ?>public/js/app.js"></script> -->
     
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
@@ -58,8 +54,6 @@
     <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
 
     <script src="<?php echo constant('URL') . 'public/js/scrollreveal.js' ?>"></script>
-    
-    <script src="<?php echo constant('URL'); ?>public/js/default.js"></script>
 </body>
 
 </html>

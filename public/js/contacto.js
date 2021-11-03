@@ -9,11 +9,14 @@ sr.reveal(".animTopToBottom", {
 const btnSendEmail = document.getElementById("btnSendEmail");
 const contactForm = document.getElementById("contactForm");
 
-btnSendEmail.addEventListener("click", (e) => {
+btnSendEmail.addEventListener("click", async (e) => {
+  e.preventDefault();
   const json = formDataToJson(contactForm);
-  const response = sendEmail();
+  const response = await sendEmail(json);
+
   if (response["status"] === "ok") {
     notify(response.result.message);
+	contactForm.reset();
   } else {
     notify("Verifique el formulario.");
   }
@@ -35,7 +38,7 @@ async function sendEmail(json) {
     body: JSON.stringify(json),
   });
 
-  return await response.json();
+  return await response.json(); 
 }
 
 function notify(message) {
