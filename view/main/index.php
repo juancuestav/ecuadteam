@@ -34,7 +34,7 @@
     </div>
     <div class="row g-0 animationHideToShow">
       <div class="col-lg-4 col-md-6 text-center p-4">
-        <img class="w-50 rounded " src="<?php echo constant('URL') . 'public/images/perfil.jpg' ?>">
+        <img class="w-50 rounded " src="<?php echo constant('URL') . 'public/images/perfil.webp' ?>">
       </div>
       <div class="col-lg-8 col-md-6 mt-4">
         <span class="text-lg-start text-md-start text-center typed fs-5"></span>
@@ -66,30 +66,19 @@
   </div>
 
   <div class="row g-0 p-4 d-flex justify-content-center">
-    <!-- Card PokeApi -->
+    <!-- Card PokeApi Rest -->
     <div class="col-lg-3 col-md-4 mt-3 mx-2 card">
       <img width="120px" class="my-2 mx-auto" src="<?php echo constant('URL') . 'public/images/pokemon.svg' ?>">
       <h4 class="mt-5">PokeApi: API Rest</h4>
-      <p>Desarrollada en PHP y basada en la API utilizando el patrón MVC.<a href="https://pokeapi.co/">https://pokeapi.co</a>.</p>
-      <p>Proporciona todos los datos de Pokémon que necesarios, en un solo lugar,
+      <p>Desarrollada en PHP y basada en la API <a href="https://pokeapi.co/">https://pokeapi.co</a> utilizando el patrón MVC..</p>
+      <p>Proporciona todos los datos de Pokémon necesarios, en un solo lugar,
         fácilmente accesible a través de una API RESTful moderna.</p>
       <div class="d-grid mt-4 d-md-flex justify-content-md-end align-items-end h-100">
-        <button type="submit" class="button-card">Ver aplicación</button>
+	  	<a type="button" class="button-card" href="https://ecuadteam-pokeapi.000webhostapp.com/" target="_blank">Ver aplicación</a>
       </div>
     </div>
 
-    <!-- Card PokeDex WebApp -->
-    <div class="col-lg-3 col-md-4 mt-3 mx-2 card">
-      <img width="120px" class="my-2 mx-auto" src="<?php echo constant('URL') . 'public/images/pokemon.svg' ?>">
-      <h4 class="mt-5">PokeDex: WebApp</h4>
-      <p>Desarrollada en PHP - HTML5, CSS, Javascript, Bootstrap, MySQL. Utilizando el patrón MVC.</p>
-      <p>Una aplicación web donde se puede ver a todos los pokemons existentes, realizar búsquedas y revisar en detalle cuáles son las principales características de un Pokémon. Tiene una vista detallada de cada pokemon y paginación.</p>
-      <div class="d-grid mt-4 d-md-flex justify-content-md-end align-items-end h-100">
-        <button type="submit" class="button-card">Ver aplicación</button>
-      </div>
-    </div>
-
-    <!-- Card Website PHP -->
+    <!-- Card ECUADteam PHP -->
     <div class="col-lg-3 col-md-4 mt-3 mx-2 card">
       <img width="40px" class="my-2 mx-auto" src="<?php echo constant('URL') . 'public/images/logo_only_square.svg' ?>">
       <h4 class="mt-5">ECUADteam: WebSite</h4>
@@ -97,7 +86,7 @@
       <p>Todos los datos de Pokémon que necesitarás en un solo lugar,
         fácilmente accesible a través de una API RESTful moderna.</p>
       <div class="d-grid mt-4 d-md-flex justify-content-md-end align-items-end h-100">
-        <button type="submit" class="button-card">Ver aplicación</button>
+	  	<a type="button" class="button-card" href="https://ecuadteam.herokuapp.com/" target="_blank">Ver aplicación</a>
       </div>
     </div>
 
@@ -109,17 +98,6 @@
       <p>LinuxNotes es una herramienta especialmente desarrollada para aquellos entusiastas de GNU/Linux. Contiene un repertorio de comandos organizados por categorías para todos los niveles. El objetivo principal es facilitar el aprendizaje y dominio de los comandos logrando gestionar eficientemente su sistema al tener todo lo que necesitas a la mano.</p>
       <div class="d-grid mt-4 d-md-flex justify-content-md-end align-items-end h-100">
         <a type="button" class="button-card" href="https://play.google.com/store/apps/details?id=com.ecuadteam.linuxnotes&hl=es" target="_blank">Ver aplicación</a>
-      </div>
-    </div>
-
-    <!-- Card PokeDex Android -->
-    <div class="col-lg-3 col-md-4 mt-3 mx-2 card">
-      <img width="120px" class="my-2 mx-auto" src="<?php echo constant('URL') . 'public/images/pokemon.svg' ?>">
-      <h4 class="mt-5">PokeDex: Android App</h4>
-      <p>Aplicación desarrollada en Kotlin.</p>
-      <p>Una aplicación Android donde se puede ver a todos los pokemons existentes, realizar búsquedas y revisar en detalle cuáles son las principales características de un Pokémon. Tiene una vista detallada de cada pokemon y paginación.</p>
-      <div class="d-grid mt-4 d-md-flex justify-content-md-end align-items-end h-100">
-        <button type="submit" class="button-card">Ver aplicación</button>
       </div>
     </div>
   </div>
